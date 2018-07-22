@@ -3,3 +3,19 @@ const percentageCalculator = (number, total) => {
 }
 console.log("How much of December is gone already? ");
 console.log(percentageCalculator(16, 31));
+
+const factorial = (n) => {
+  let counter = 1;
+  let result  = 1;
+
+  while (counter <= n) {
+    result = result * counter;
+    counter = counter + 1;
+    //console.log(counter);
+    console.log(result);
+  }
+
+  return result;
+}
+
+console.log(factorial(3));
