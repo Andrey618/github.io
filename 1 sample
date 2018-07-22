@@ -1,0 +1,5 @@
+const percentageCalculator = (number, total) => {
+  return number * 100 / total;
+}
+console.log("How much of December is gone already? ");
+console.log(percentageCalculator(16, 31));
